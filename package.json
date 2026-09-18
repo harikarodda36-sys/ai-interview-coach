@@ -1,0 +1,20 @@
+{
+  "name": "ai-interview-coach",
+  "version": "1.0.0",
+  "description": "InterviewAI - Personal AI Interview Coach",
+  "main": "backend/server.js",
+  "scripts": {
+    "install-all": "npm install --prefix backend && npm install --prefix frontend",
+    "build": "npm install --prefix frontend && npm run build --prefix frontend && npm install --prefix backend",
+    "start": "node backend/server.js"
+  },
+  "keywords": [
+    "ai",
+    "interview",
+    "express",
+    "react",
+    "mongodb"
+  ],
+  "author": "InterviewAI Team",
+  "license": "ISC"
+}
